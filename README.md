@@ -31,7 +31,7 @@ echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 ![Picture4](https://user-images.githubusercontent.com/108296165/177630581-709dc432-40c5-469b-b910-be3f84edfa80.png)
 
 
-#Installing ROS2 on jetson nano
+# Installing ROS2 on jetson nano
 First we need to flash Ubuntu 20.04 [(download it from here)](https://github.com/Discombobulated88/Xubuntu-20.04-L4T-32.3.1/releases/download/v1.0/Xubuntu-20.04-l4t-r32.3.1.tar.tbz2) to SDD using [(Balena Etcher)](https://www.balena.io/etcher/) program.
 ```
 1- extract the balena etcher program
