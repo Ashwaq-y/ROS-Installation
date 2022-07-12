@@ -38,7 +38,7 @@ First we need to flash Ubuntu 20.04 [(download it from here)](https://github.com
 2- extract the Ubuntu image using the following command: tar -xvjf Xubuntu-20.04-l4t-r32.3.1.tar.tbz2
 then flash it to the SD card using balena etcher
 ```
-Then after inserting the sdd card to jetson nano and start it, it will show an ubuntu interface it will some basic set up. 
+Then after inserting the SD card to jetson nano and start it, it will show an ubuntu interface it will requires some basic set up. 
 Install ROS2 using the following comand in the terminal:
 
 ### Set locale
