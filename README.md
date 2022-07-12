@@ -32,11 +32,11 @@ echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 
 
 # Installing ROS2 on jetson nano
-First we need to flash Ubuntu 20.04 [(download it from here)](https://github.com/Discombobulated88/Xubuntu-20.04-L4T-32.3.1/releases/download/v1.0/Xubuntu-20.04-l4t-r32.3.1.tar.tbz2) to SDD using [Balena Etcher](https://www.balena.io/etcher/) program.
+First we need to flash Ubuntu 20.04 [(download it from here)](https://github.com/Discombobulated88/Xubuntu-20.04-L4T-32.3.1/releases/download/v1.0/Xubuntu-20.04-l4t-r32.3.1.tar.tbz2) to SD using [Balena Etcher](https://www.balena.io/etcher/) program.
 ```
 1- extract the balena etcher program
 2- extract the Ubuntu image using the following command: tar -xvjf Xubuntu-20.04-l4t-r32.3.1.tar.tbz2
-then flash it to the sdd card using balena etcher
+then flash it to the SD card using balena etcher
 ```
 Then after inserting the sdd card to jetson nano and start it, it will show an ubuntu interface it will some basic set up. 
 Install ROS2 using the following comand in the terminal:
