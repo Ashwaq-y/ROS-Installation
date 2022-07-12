@@ -72,6 +72,9 @@ sudo apt install software-properties-common
 sudo add-apt-repository universe
 ```
 
+
+Then continue with these commands:
+
 ```
 sudo apt update && sudo apt install curl gnupg2 lsb-release
 sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key  -o /usr/share/keyrings/ros-archive-keyring.gpg
